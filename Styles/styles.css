@@ -57,6 +57,9 @@ body {
   background: transparent;
   border: 1px solid #30B868;
 }
+.btn-primary a:hover {
+  color: #30B868;
+}
 /* Secondary Button */
 .btn-secondary {
   display: inline-flex;
@@ -82,10 +85,9 @@ body {
   /* color: #ffffff; */
   di
 }
-/* .btn-secondary a:hover {
+.btn-secondary a:hover {
   color: #ffffff;
-  
-} */
+}
 
 
 /*================ Header ================*/
