@@ -136,7 +136,7 @@ nav a {
 /* Hero Section */
 
 #hero {
-    background: url('../Images/hero-bg.png') center center;
+    background: url('/Images/hero-bg.png') center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
