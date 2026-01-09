@@ -302,23 +302,129 @@ nav a:hover {
     color: #627382;
     font-weight: 400;
 }
+/* box section end  */
 
+/* about section start */
+#about {
+    padding: 120px;
+}
+#about .about-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.about-container .about-subheading {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.about-container h2 {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #001931;
+    text-align: left;
+    margin-bottom: 16px;
+    width: 75%;
+}
+.about-container p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 24px;
+    width: 75%;
+    margin-bottom: 40px;
+}
+.about-container .CheckCircle {
+       margin-bottom: 16px;
+}
+.about-container .CheckCircle p {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+    font-weight: 500;
+}
 
+/* CTA Section */
+#cta {
+    
+}
+#cta .cta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f7f6f2;
+    padding: 80px 40px;
+    text-align: center;
+    margin-bottom: 120px;
 
+}
+.cta-container h2 {
+    font-size: 40px;
+    line-height: auto;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
 
+#cta .btn-primary {
+    margin-bottom: 16px;
+}
+.cta-container p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    max-width: 400px;
+    margin-bottom: 24px;
+}
 
+/* Footer Section */
+#footer {
+    background: #001931;
+    padding: 60px 20px;
+    color: #ffffff;
+    padding: 120px 120px 30px 120px;    
+}
 
+#footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    border-bottom: 1px solid #e5e7eb26;
+     padding: 0px 0 80px 0 ;
+}   
 
+.footer-social h3 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 16px;
+   
+}
 
+.footer-social a {
+    color: #ffffff;
+    margin-right: 16px;
+}
 
-
-
-
-
-
-
-
-
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fafafa;
+}
 
 
 
