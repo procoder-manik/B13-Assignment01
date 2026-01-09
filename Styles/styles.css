@@ -19,6 +19,7 @@ body {
   font-style: normal;
 } */
 
+/*=============== Universal code ===============*/
 
 .container{
     width: 100%;
@@ -91,7 +92,6 @@ body {
 
 
 /*================ Header ================*/
-/*================ Start ================*/
 header {
     background: #fff8f300;
     padding: 15px 0;
@@ -102,7 +102,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 15px 0;  */
+    
        
     }
 
@@ -126,29 +126,13 @@ nav a {
     font-weight: 500;
     font-size: 16px;
     line-height: 152%;
-    /* padding: 10px 15px; */
-    /* position: relative;
-    padding-bottom: 6px;
-    transition: color 0.3s ease; */
 }
-/* nav a::after { 
-    content: '';
-    position: absolute;
-    width: 0;           
-    height: 2px;      
-    bottom: 0;         
-    left: 0;           
-    background-color: #30B868;
-    transition: width 0.3s ease; 
-} */
+
 
 nav a:hover {
     color: #30B868;   
 }
 
-/* nav a:hover::after {
-    width: 100%;
-} */
 
 
 /* Hero Section */
@@ -160,7 +144,7 @@ nav a:hover {
     background-size: cover;
     padding: 20px;
     text-align: center;
-    height: 600px;
+    height: 700px;
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -226,7 +210,6 @@ nav a:hover {
   display: inline-flex;
   align-items: center;
   gap: 16px;
-  /* justify-content: center; */
   margin-top: 32px;
 } 
 
@@ -268,6 +251,7 @@ nav a:hover {
 .box-section-container  {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 24px;
 }
 .box-section-container .box {
@@ -311,6 +295,7 @@ nav a:hover {
 #about .about-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 60px;
 }
 
@@ -330,7 +315,7 @@ nav a:hover {
     color: #001931;
     text-align: left;
     margin-bottom: 16px;
-    width: 75%;
+    width: 90%;
 }
 .about-container p {
     font-size: 16px;
@@ -339,7 +324,7 @@ nav a:hover {
     font-weight: 400;
     text-align: left;
     margin-bottom: 24px;
-    width: 75%;
+    width: 90%;
     margin-bottom: 40px;
 }
 .about-container .CheckCircle {
