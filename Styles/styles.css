@@ -356,7 +356,7 @@ nav a:hover {
 
 /* CTA Section */
 #cta {
-    
+    padding: 0 20px;
 }
 #cta .cta-container {
     display: flex;
@@ -383,7 +383,6 @@ nav a:hover {
     font-size: 16px;
     line-height: 24px;
     color: #627382;
-    max-width: 400px;
     margin-bottom: 24px;
 }
 
